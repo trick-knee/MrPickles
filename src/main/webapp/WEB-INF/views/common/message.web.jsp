@@ -42,6 +42,7 @@
         <p>
             <a class="btn btn-info" href="${infoWithActionPrimaryActionLink}">${infoWithActionPrimaryAction}</a>
             <a class="btn" href="${infoWithActionSecActionLink}">${infoWithActionSecAction}</a>
+            <a class="btn" href="${infoWithActionTertActionLink}">${infoWithActionTertAction}</a>
         </p>
     </div>
 </c:if>

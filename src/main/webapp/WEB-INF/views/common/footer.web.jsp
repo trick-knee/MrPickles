@@ -11,6 +11,7 @@
       <spring:message code="button_home"/>
     </a>
   </span>
+<!--
   <c:if test="${pageContext['request'].userPrincipal != null}">
     <c:out value=" | "/>
     <span>
@@ -20,7 +21,9 @@
       </a>
     </span>
   </c:if>
+-->
 
+<!--
   <span id="language">
     <c:out value=" | "/>
     <spring:message code="global_language"/>
@@ -38,5 +41,6 @@
     </a>
     </span>
     <div class="pull-right"><small>sponsored by MrPickles</small><i class="flaticon-stripy"></i>
+-->
 
     </div>

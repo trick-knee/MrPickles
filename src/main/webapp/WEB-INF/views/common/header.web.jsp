@@ -23,6 +23,7 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right pull-right">
                 <li><a href="aboutPage/">About</a></li>
+            <!--
                 <li class="dropdown pull-right">
                     <c:choose>
                         <c:when test="${pageContext['request'].userPrincipal != null}">
@@ -53,6 +54,7 @@
                         </c:otherwise>
                     </c:choose>
                 </li>
+            -->
             </ul>
             <%--  <ul class="nav navbar-nav navbar-right">
                   <li><a href="../navbar/">Default</a></li>
@@ -86,6 +88,7 @@
         </ul>
     </div>
 
+        <!--
             <ul class="nav pull-right">
                 <li class="dropdown">
                     <c:choose>
@@ -118,6 +121,7 @@
                     </c:choose>
                 </li>
             </ul>
+        -->
 &lt;%&ndash;
         </div>
 &ndash;%&gt;

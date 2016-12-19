@@ -46,6 +46,8 @@ public class SiteLandingController {
                 model.addAttribute("infoWithActionPrimaryActionLink","http://www.google.com");
                 model.addAttribute("infoWithActionSecAction","Goto CNN");
                 model.addAttribute("infoWithActionSecActionLink","http://www.cnn.com");
+                model.addAttribute("infoWithActionTertAction","Goto Yahoo");
+                model.addAttribute("infoWithActionTertActionLink","http://www.yahoo.com");
            }
         }
 		
