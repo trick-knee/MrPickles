@@ -1,3 +1,0 @@
-Hi ${user.userName}, welcome the Mr Pickles System!
-
-Your email address is ${user.email}

@@ -1,1 +1,0 @@
-INSERT INTO APP_USER (created_by, created_date, dob, email, first_name, last_modified_by, last_modified_date, last_name, phone_mobile, status, user_hash, user_name, version) VALUES('MrPickles','2013-04-01 19:25:58.695000','2013-04-01','tony@example.com','Tony','MrPickles','2013-04-01 19:25:58.695000','Sweets','303-555-5555','ACTIVE','password','admin',0);
