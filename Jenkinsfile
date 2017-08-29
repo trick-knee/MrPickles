@@ -6,5 +6,11 @@ pipeline {
         sh 'mvn compile'
       }
     }
+    stage('test') {
+      steps {
+        sh 'mvn test'
+        archiveArtifacts(artifacts: '**/*.[jew]ar', allowEmptyArchive: true)
+      }
+    }
   }
 }
