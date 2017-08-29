@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn compile'
+        sh 'mvn --version'
       }
     }
     stage('test') {
@@ -17,14 +17,14 @@ env | sort
 pwd'''
             
           },
-          "": {
+          "error": {
             echo 'FOO'
             
           }
         )
       }
     }
-    stage('') {
+    stage('error') {
       steps {
         input(message: 'Continue?', id: 'do_continue')
       }
