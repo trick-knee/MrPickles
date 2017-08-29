@@ -8,8 +8,25 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'mvn test'
-        archiveArtifacts(artifacts: '**/*.?ar', allowEmptyArchive: true)
+        parallel(
+          "test": {
+            sh '''set -x
+hostname
+date
+env | sort
+pwd'''
+            
+          },
+          "": {
+            echo 'FOO'
+            
+          }
+        )
+      }
+    }
+    stage('') {
+      steps {
+        input(message: 'Continue?', id: 'do_continue')
       }
     }
   }
