@@ -9,7 +9,7 @@ pipeline {
     stage('test') {
       steps {
         sh 'mvn test'
-        archiveArtifacts(artifacts: '**/*.[jew]ar', allowEmptyArchive: true)
+        archiveArtifacts(artifacts: '**/*.?ar', allowEmptyArchive: true)
       }
     }
   }
